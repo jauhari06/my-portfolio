@@ -34,5 +34,12 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'spotify' => [
+        'client_id' => env('SPOTIFY_CLIENT_ID'),
+        'client_secret' => env('SPOTIFY_CLIENT_SECRET'),
+        'redirect' => env('SPOTIFY_REDIRECT_URI'),
+        'refresh_token' => env('SPOTIFY_REFRESH_TOKEN'),
+        'playlist_id' => env('SPOTIFY_PLAYLIST_ID'),
+    ],
 
 ];
