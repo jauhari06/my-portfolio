@@ -3,9 +3,15 @@ import Alpine from "alpinejs";
 import barba from "@barba/core";
 import gsap from "gsap";
 import weatherWidget from "./components/weatherWidget";
+import spotifyWidget from "./components/spotifyWidget";
+import spotifyPlaylistWidget from "./components/spotifyPlaylistWidget";
 
-Alpine.data("weatherWidget", weatherWidget);
 window.Alpine = Alpine;
+
+Alpine.data("spotifyWidget", spotifyWidget);
+Alpine.data("weatherWidget", weatherWidget);
+Alpine.data("spotifyPlaylistWidget", spotifyPlaylistWidget);
+
 Alpine.start();
 
 barba.init({

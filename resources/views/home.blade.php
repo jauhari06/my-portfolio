@@ -49,7 +49,7 @@
             <span class="text-xl">↗</span>
         </a>
         
-        {{-- Kartu Cuaca (Diambil dari components/weather-widget.blade.php) --}}
+        {{-- Kartu Cuaca --}}
         <x-weather.weather-widget />
 
 
@@ -68,16 +68,16 @@
             <span>GITHUB</span>
             <span class="text-xl">↗</span>
         </a>
-
-        <a href="#" target="_blank" class="bento-card bg-retro-surface border border-retro-border p-6 flex justify-center items-center gap-2 hover:bg-white hover:text-black transition-colors">
-            <span>GITHUB</span>
-            <span class="text-xl">↗</span>
-        </a>
+            {{-- spotify --}}
+        <x-spotify.spotify-widget />
 
         <div class="bento-card col-span-1 md:col-span-2 bg-white text-black border border-retro-border p-6 flex flex-col justify-center items-start">
             <h3 class="text-xl font-bold mb-2">Contact Me,<br>Let's work together.</h3>
             <a href="mailto:emailmu@gmail.com" class="text-sm underline hover:no-underline">emailmu@gmail.com</a>
         </div>
+
+        {{-- spotify playlist --}}
+        <x-spotify.spotify-playlist-widget />
 
     </section>
 </div>
