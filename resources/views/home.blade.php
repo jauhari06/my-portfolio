@@ -52,7 +52,6 @@
         {{-- Kartu Cuaca --}}
         <x-weather.weather-widget />
 
-
         <div class="bento-card col-span-1 md:row-span-2 bg-retro-surface border border-retro-border p-6 flex flex-col justify-between">
             <div>
                 <span class="text-xs text-gray-500 uppercase tracking-widest">Location</span>
@@ -76,8 +75,7 @@
             <a href="mailto:emailmu@gmail.com" class="text-sm underline hover:no-underline">emailmu@gmail.com</a>
         </div>
 
-        {{-- spotify playlist --}}
-        <x-spotify.spotify-playlist-widget />
+        <x-card.rpg-widget />
 
     </section>
 </div>
